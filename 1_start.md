@@ -32,7 +32,7 @@ permalink: /start/
           마스터 노드를 기반으로 네트워크가 동기화되기 때문에 변경하지 않는 것이 더 효율적으로 동작 가능합니다.
           </div>
           <div class="col s12 m4 l6 center">   
-            <img width="300" data-action="zoom" src='{{ "/assets/imgs/2_makeaccount.png" | relative_url }}' alt='absolute'> 
+            <img width="300" data-action="zoom" src='{{ "/assets/imgs/4_masternode.png" | relative_url }}' alt='absolute'> 
           </div>
       </div>
       <div class="row">      
