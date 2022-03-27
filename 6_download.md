@@ -16,7 +16,7 @@ permalink: /download/
         </div>  
         <div class="col s12 m6">    
         <h5>Android 버전</h5> 
-        GhostNet.apk
+        <a href='{{ "/assets/app/com.ghostnet.GhostNet.apk" | relative_url }}'>GhostNet.apk</a>        
         </div>
     </div>
     <div class="row center">  <br><br><br><br>
