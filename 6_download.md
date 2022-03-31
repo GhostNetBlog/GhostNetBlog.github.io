@@ -11,12 +11,11 @@ permalink: /download/
     </div>
     <div class="row center">      
         <div class="col s12 m6">    
-        <h5>Windows 버전</h5> 
-        GhostNet.msix
+        <h5>Windows 버전</h5> GhostNet.appxbundle
         </div>  
         <div class="col s12 m6">    
         <h5>Android 버전</h5> 
-        <a href='{{ "/assets/app/com.ghostnet.GhostNet.apk" | relative_url }}'>GhostNet.apk</a>        
+        <a href='{{ "/assets/app/com.ghostnet.GhostNet.aab" | relative_url }}'>GhostNet.aab</a>        
         </div>
     </div>
     <div class="row center">  <br><br><br><br>
@@ -29,8 +28,7 @@ permalink: /download/
         등록 준비 중
         </div>
         <div class="col s12 m4">    
-        <img width="200" data-action="zoom" src='{{ "/assets/windows-store-badge.png" | relative_url }}' alt='absolute'> <br>
-        등록 준비 중
+        <a href="https://www.microsoft.com/ko-kr/p/ghostnet/9phc4s6d6b7q?activetab=pivot:overviewtab"><img width="200" data-action="zoom" src='{{ "/assets/windows-store-badge.png" | relative_url }}' alt='absolute'></a>
         </div>
         <div class="col s12 m4 center">     
         <img width="190" data-action="zoom" src='{{ "/assets/App_Store_Badge_US-UK.svg" | relative_url }}' alt='absolute'> <br>
