@@ -24,8 +24,8 @@ permalink: /download/
     <hr class="my-3">
     <div class="row center">      
         <div class="col s12 m4 center">     
-        <img width="200" data-action="zoom" src='{{ "/assets/Google_Play_Store_badge_EN.svg" | relative_url }}' alt='absolute'> <br>
-        등록 준비 중
+        <a href="https://play.google.com/store/apps/details?id=com.ghostnet.GhostNet">
+        <img width="200" data-action="zoom" src='{{ "/assets/Google_Play_Store_badge_EN.svg" | relative_url }}' alt='absolute'> </a><br>
         </div>
         <div class="col s12 m4">    
         <a href="https://www.microsoft.com/ko-kr/p/ghostnet/9phc4s6d6b7q?activetab=pivot:overviewtab"><img width="200" data-action="zoom" src='{{ "/assets/windows-store-badge.png" | relative_url }}' alt='absolute'></a>
