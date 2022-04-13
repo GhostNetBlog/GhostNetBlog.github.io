@@ -18,7 +18,7 @@ permalink: /download/
             <div class="col s12 m4">
              <h5 class="center"><a href="https://www.microsoft.com/ko-kr/p/ghostnet/9phc4s6d6b7q?activetab=pivot:overviewtab"><img width="200" data-action="zoom" src='{{ "/assets/windows-store-badge.png" | relative_url }}' alt='absolute'></a></h5>
                 <h5 class="center">Windows </h5>
-                <p class="light">윈도우 앱은은 마스터 노드가 될 수 있습니다. 외부에서 접근이 어려운 네트워크 환경에서는 불가능 합니다. 마스터 노드는 보상으로 Ghost Coin을 받습니다. </p>
+                <p class="light">윈도우 앱은 마스터 노드가 될 수 있습니다. 단, 외부에서 접근이 어려운 네트워크 환경에서는 불가능 합니다. 마스터 노드는 보상으로 Ghost Coin을 받습니다. </p>
             </div>
             <div class="col s12 m4">
              <h5 class="center">
