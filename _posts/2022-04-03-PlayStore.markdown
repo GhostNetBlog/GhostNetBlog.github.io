@@ -6,4 +6,4 @@ categories: Release
 ---
 
 안드로이드 구글 플레이 스토어에 첫 게시가 되었습니다.
-[MS Store](https://play.google.com/store/apps/details?id=com.ghostnet.GhostNet)
+[Play Store](https://play.google.com/store/apps/details?id=com.ghostnet.GhostNet)
