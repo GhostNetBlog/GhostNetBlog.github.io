@@ -5,7 +5,9 @@ permalink: /download/
 ---
 
 <h1 class="page-title">{{ page.title | escape }}</h1>
-<div class="row center">  <br><br>
+<div class="row center">  <br><br><h5><b>첫 사용자를 위한 가이드</b></h5>
+<h5>"두 개의 계정을 만들어 하나는 PC 버전에서, <br>나머지 하나는 모바일 버전에서 사용하고 <br>자신의 PC 계정을 팔로워하는 것을 추천합니다."</h5>
+ <br><br>
 3월 30일: MS Store 첫 게시<br>
 4월 3일: Play Store 첫 게시
 <br><br><br><br>
