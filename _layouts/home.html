@@ -62,26 +62,72 @@ layout: default
 
     </div>
       
+  </div>
+  
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section  https://www.panoramedia.eu/jekyllmaterialize/ -->
+      <div class="row">
+        <div class="col s12">
+          <h5>GhostNet은 <b>메인넷</b>입니다</h5><br>
+          Ghost Net은 독자적으로 구축된 자체 블록체인 네트워크입니다.
+          전력을 많이 사용하는 작업증명을 사용않고 <u><b>독자적인 합의 알고리즘</b></u>을 갖고 있으며
+          데이터를 <u><b>분산 저장</b></u>할 수 있는 기능을 내장하고 있습니다.
+        </div>
+      </div>
     </div>
-    <div style="background: #ddd">
-    <div class="container last-post">
-    <section>
-        <h5>Latest Post</h5>
-        <ul class="collection">
-        {% for post in site.posts %}
-        <li class="collection-item avatar">
-          {% assign date_format = site.minima.date_format | default: "%m/%d" %}
-          <div class="date-post">{{ post.date | date: date_format }}</div>
-          <span class="title"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></span>
-          <p>
-             {{ post.content | truncatewords: 10 }}
-          </p>
-          <a href="{{ post.url | relative_url }}" class="secondary-content"><i class="material-icons">navigate_next</i></a>
-        </li>
-        {% endfor %}
-        </ul>  
-    </section>
+  </div>
+  
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section  https://www.panoramedia.eu/jekyllmaterialize/ -->
+      <div class="row">
+        <div class="col s12">
+          <h5>GhostNet은 <b>일을 해야 보상을 받는</b> 실체가 있는 블록체인입니다</h5><br>
+          Ghost Net은 file을 분산 저장하는 클라우드 저장 서비스를 기반으로 하고 있습니다. 
+          Ghost 유저는 자신의 저장 공간이나 자원을 네트워크에 제공합니다.
+          Ghost Net의 클라우드 서비스를 이용하는 개인이나 기업에게 서비스를 제공하고 그 보상을 받게 됩니다.
+        </div>
+      </div>
     </div>
+  </div>
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section  https://www.panoramedia.eu/jekyllmaterialize/ -->
+      <div class="row">
+        <div class="col s12">
+          <h5>1인 개발 : <b>Ghost</b></h5><br>
+          현업에서는 블록체인과 전혀 관련이 없는 분야에서 개발하고 평범한 개발자입니다. 
+          블록체인은 하나의 독립된 경제 시스템을 구축하는 것이라 생각되며 
+          그 세계관을 만들어 나가면서 상상 나래를 펼치며 그것을 현실화하는 재미가 있습니다.
+          탈중앙화된 시스템은 중앙화된 시스템보다 더 구축하기 어렵다고 생각됩니다. 
+          그렇지만 도전할 가치가 있다고 생각합니다.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="background: #ddd">
+  <div class="container last-post">
+  <section>
+      <h5>Latest Post</h5>
+      <ul class="collection">
+      {% for post in site.posts %}
+      <li class="collection-item avatar">
+        {% assign date_format = site.minima.date_format | default: "%m/%d" %}
+        <div class="date-post">{{ post.date | date: date_format }}</div>
+        <span class="title"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></span>
+        <p>
+            {{ post.content | truncatewords: 10 }}
+        </p>
+        <a href="{{ post.url | relative_url }}" class="secondary-content"><i class="material-icons">navigate_next</i></a>
+      </li>
+      {% endfor %}
+      </ul>  
+  </section>
+  </div>
 </div>
 
   </div>
