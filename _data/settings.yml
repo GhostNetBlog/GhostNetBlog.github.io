@@ -178,19 +178,19 @@ services:
 
 # Portfolio Home Section
 portfolio-home-items:
-  - image: "assets/images/portfolio/_cap4.png"
+  - image: "assets/images/portfolio/cap4.png"
     url: "#"
 
   - image: "assets/images/portfolio/Screenshot_20220923-154330.jpg"
     url: "#"
 
-  - image: "assets/images/portfolio/_cap.png"
+  - image: "assets/images/portfolio/cap.png"
     url: "#"
 
-  - image: "assets/images/portfolio/_cap2.png"
+  - image: "assets/images/portfolio/cap2.png"
     url: "#"
 
-  - image: "assets/images/portfolio/_cap3.png"
+  - image: "assets/images/portfolio/cap3.png"
     url: "#"
 
 # Portfolio Page
