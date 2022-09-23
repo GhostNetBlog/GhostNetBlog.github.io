@@ -2,7 +2,8 @@
 layout: post
 title:  "Microsoft Store First Release"
 date:   2022-03-30 21:42:30 +0900
-categories: Release
+image:  /assets/images/blog/post-5.jpg
+author: Ghost
 ---
 
 윈도우 스토어에 첫 게시가 되었습니다.

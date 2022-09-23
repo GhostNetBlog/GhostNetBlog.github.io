@@ -1,20 +1,21 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="en">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body class="d-flex flex-column min-vh-100">
+<body>
 
-    {% include header.html %}
+  {% include header.html %}
 
-    <main>
-        {{ content }}
-    </main>
-    
-    {% include footer.html %}
-      
-    {% include script.html %}
+  {{ content }}
 
-  </body>
+  {% include contact-section.html %}
+
+  {% include footer.html %}
+
+</body>
 
 </html>
