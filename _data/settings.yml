@@ -157,19 +157,19 @@ services:
   - {
       name: Communication,
       icon: ti-world,
-      description: "GhostNet은 P2P Network기반 Serverless Mobile Messenger입니다. 중앙 서버 없이 개인과 개인끼리 통신을 지원하며 자신의 메시지는 개인 기기에만 저장이 됩니다. GhostNet의 각 Ghost들은(Node) 팔로워와 팔로잉으로 연결되어 있으며 서로의 피드를 실시간으로 확인할 수 있습니다.",
+      description: "GhostNet은 P2P Network기반 SNS Service를 제공합니다. Ghost Network를 이용해 누구나 앱과 게임을 만들 수 있습니다.",
       active: ,# Add true to select section
     }
   - {
       name: BlockChain Network,
       icon: ti-money,
-      description: "GhostNet은 Master Node들에 의해 운영되며 누구나 Master Node가 되어 BlockChain을 관리하는 주체가 될 수 있습니다. GhostNet은 그 보상으로 코인이 지급하고 Block Chain상에서 코인 송금이나 데이터 저장, NFT 거래 서비스를 제공합니다",
+      description: "GhostNet은 누구나 참여할 수 있는 Open BlockChain Network입니다. Master Node는 Network를 운영하는 대신 보상을 얻습니다.",
       active: true, # Add true to select section
     }
   - {
       name: Cloud Service,
       icon: ti-cloud,
-      description: "BlockChain에 데이터를 저장하고 로드할 수 있는 클라우드 서비스를 제공합니다. 각 Master Node들은 Block Chain Data를 분산 저장하며 보상으로 코인을 지급받습니다. 클라우드 서비스는 GhostNetService.com에서 이용할 수 있습니다",
+      description: "BlockChain에 데이터를 저장하고 로드할 수 있는 클라우드 서비스를 제공합니다. GhostNetService에서 베타 서비스중입니다",
       active: ,# Add true to select section
     }
 
