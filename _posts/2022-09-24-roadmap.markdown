@@ -66,6 +66,6 @@ Django를 유지할지 고민입니다. Golang으로 웹서버를 구현할까 �
 그냥 하면 되는 Item
 - GhostOpenApi 고도화
 
-역량을 확보해야하는 Item이 많으나 재미나 바로 할 수 있는 것은 GhostOpenApi와 Unity 샘플 게임 확보이다. Multiple Window는 확보된 코드를 분석하면된다. 상당히 어렵기 때문에 시간을 투자할 필요가 있다. Golang은 Web Server 개발로 역량을 확보한다.  
+역량을 확보해야하는 Item이 많으나 재미나 바로 할 수 있는 것은 GhostOpenApi와 Unity 샘플 게임 확보이다. Multiple Window는 확보된 코드를 분석하면된다. 상당히 어렵기 때문에 시간을 투자할 필요가 있다. Golang은 Web Server 개발로 역량을 확보한 후 Conversion을 진행한다.  
 
 그리고 Github상의 CI/CD를 경험해보고 내부적으로도 CI/CD를 구축해보자. 일단 Window상에 jenkins 셋업이 쉽지 않다...
