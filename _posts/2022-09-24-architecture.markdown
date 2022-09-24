@@ -18,4 +18,4 @@ author: Ghost
 #### Xamarin + UI Layer
 Xamarin의 개발 프로젝트 구조를 보면 Core의 공용 프로젝트가 있고 각 Platform의 Native Code를 작성할 수 있는 프로젝트로 나뉘어저 있다. 여기서 최대한 신경쓴 점은 UI가 각 Platform에 독립적으로 설계되고 동일한 UI를 보여줄 수 있도록 한 점이다. PoC 버전이더라도 향후에 플랫폼이 확장할 경우를 생각하여 분리가 가능하도록 설계할 필요가 있었다.  
 
-물론, Native Code를 사용할 수 밖에 없는 부분이 존재한다. Alram이라든지 image processing은 각 Platform이 지원하는 인터페이스를 사용해야한다. 
+> 물론, Native Code를 사용할 수 밖에 없는 부분이 존재한다. Alram이라든지 image processing은 각 Platform이 지원하는 인터페이스를 사용해야한다. 

@@ -8,7 +8,7 @@ author: ghost
 description: this is meta description
 email: ghost.chat.net@email.com
 phone: +00 000 0000
-address: GhostNet 1
+address: GhostNet://1
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
@@ -102,7 +102,7 @@ experience:
       name: GhostNetService™,
       icon: "icon-1.png",
       date: "Jan 2021 - Present",
-      organization: "SNS, Web, 거래 플랫폼",
+      organization: "SNS, Web, 거래 플랫폼<br>GhostNet 커뮤니티",
       color: "#007bff",
       url: "http://ghostnetservice.com/"
     }
