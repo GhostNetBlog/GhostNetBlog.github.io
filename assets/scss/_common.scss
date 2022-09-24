@@ -24,9 +24,19 @@ body {
 }
 
 ol,
-ul {
-  list-style-type: none;
-  margin: 0px;
+ul,
+dl {
+  line-height: 0;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+ol ol,
+ul ul,
+ol ul,
+ul ol {
+  line-height: 1em;
+  margin-bottom: 0;
 }
 
 img {
